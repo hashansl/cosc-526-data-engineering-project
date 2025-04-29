@@ -47,9 +47,8 @@ data-engineering-project/
 ## 📌 How to Use
 
 1. **Prepare the environment**:
-   ```bash
-   pip install -r requirements.txt
-   ```
+    - Install required libraries:
+    - Ensure you have access to the MIMIC-III dataset and place NOTEEVENTS.csv it in the `data/` directory.
 
 2. **Run notebooks in order** (recommended path):
    - `exploratary_data_analysis.ipynb`
