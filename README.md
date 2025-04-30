@@ -9,7 +9,7 @@ This project explores the segmentation, embedding, and clustering of clinical no
 - 📄 **Clean and preprocess** clinical notes (e.g., Nursing, Radiology)
 - 🤖 **Generate embeddings** using Doc2Vec, TF-IDF, and BioClinicalBERT
 - 🧩 **Cluster note segments** using:
-  - Hierarchical Agglomerative Clustering (`n_clusters=50`)
+  - Hierarchical Agglomerative Clustering (`n_clusters=72`)
   - Topological Data Analysis (TDA) via the Mapper algorithm
 - 📊 **Visualize and analyze** document structure and thematic similarity
 
@@ -17,7 +17,6 @@ This project explores the segmentation, embedding, and clustering of clinical no
 
 ## 🛠️ Tools & Techniques
 
-- **BioClinicalBERT** for contextual embeddings
 - **Doc2Vec**, **TF-IDF** for vector representations
 - **AgglomerativeClustering** from `sklearn` (bottom-up hierarchical clustering)
 - **Mapper algorithm** from TDA for topological clustering
